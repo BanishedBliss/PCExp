@@ -1,0 +1,6 @@
+(pushnew (uiop:getcwd) ql:*local-project-directories*)
+;(ql:quickload)
+(asdf:load-asd "pcexp.asd")
+(ql:quickload :pcexp)
+(in-package :pcexp)
+(main)
